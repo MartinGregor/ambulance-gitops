@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xgregorm-ambulance-ufe-content
+spec:
+  microFrontend: xgregorm-ambulance-ufe
+  element: xgregorm-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?<pfx>-ambulance-wl(/.*)?$"
