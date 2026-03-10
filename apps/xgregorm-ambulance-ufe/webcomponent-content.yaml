@@ -7,7 +7,7 @@ spec:
   element: xgregorm-ambulance-wl-app
   attributes:
     - name: base-path
-      value: /xgregorm-ambulance-wl/
+      value: ./xgregorm-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
