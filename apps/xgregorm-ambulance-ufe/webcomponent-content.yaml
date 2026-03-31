@@ -6,12 +6,12 @@ spec:
   microFrontend: xgregorm-ambulance-ufe
   element: xgregorm-ambulance-wl-app
   attributes:
-    - name: base-path
-      value: /xgregorm-ambulance-wl/
     - name: api-base
-      value: http://localhost:5000/api
+      value: http://localhost:30081/api
     - name: ambulance-id
       value: bobulova
+    - name: base-path
+      value: /xgregorm-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content

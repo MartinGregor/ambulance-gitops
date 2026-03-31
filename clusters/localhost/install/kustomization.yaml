@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/xgregorm-ambulance-ufe
+- ../../../apps/xgregorm-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/MartinGregor/xgregorm-ambulance-webapi//deployments/kustomize/components/mongodb
