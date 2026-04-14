@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: xgregorm-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: "Zoznam čakajúcich xgregorm" # napr. "Zoznam čakajúcich <pfx>"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Martin Gregor" # Zadajte mená autorov
+  azureLink: "https://xgregorm-ambulance-fsbwhsddh7epb6hr.westeurope-01.azurewebsites.net/"
+  frontendRepoUrl: "https://github.com/MartinGregor/xgregorm-ambulance-ufe"
+  backendRepoUrl: "https://github.com/MartinGregor/xgregorm-ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/MartinGregor/ambulance-gitops"
