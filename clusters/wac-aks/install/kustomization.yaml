@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/xgregorm-ambulance-ufe
+- ../../../apps/xgregorm-ambulance-webapi
 
 
 components:
