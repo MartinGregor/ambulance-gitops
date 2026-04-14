@@ -7,7 +7,7 @@ spec:
   element: xgregorm-ambulance-wl-app
   attributes:
     - name: api-base
-      value: http://localhost:30081/api
+      value: /xgregorm-api
     - name: ambulance-id
       value: bobulova
     - name: base-path
@@ -15,4 +15,4 @@ spec:
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?<pfx>-ambulance-wl(/.*)?$"
+      - path: "^(\\.?/)?xgregorm-ambulance-wl(/.*)?$"
